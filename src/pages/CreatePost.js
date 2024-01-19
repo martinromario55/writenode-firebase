@@ -11,7 +11,7 @@ export const CreatePost = () => {
 
   async function handleCreatePost(e) {
     e.preventDefault()
-    console.log(auth)
+    // console.log(auth)
     const document = {
       title: e.target.title.value,
       description: e.target.description.value,
